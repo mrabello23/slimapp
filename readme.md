@@ -12,24 +12,24 @@ Run this command from the directory in which you want to install your applicatio
 ## Use API:
 
 # Get all customer
-Method: GET
-URL: '/api/customers'
+Method: GET <br/>
+URL: '/api/customers' <br/>
 
 # Get single customer
-Method: get
-URL: '/api/customer/{id}'
+Method: get <br/>
+URL: '/api/customer/{id}' <br/>
 
 # Add customer
-Method: post
-URL: '/api/customer/add'
-params: name, email, phone
+Method: post <br/>
+URL: '/api/customer/add' <br/>
+params: name, email, phone <br/>
 
 # Update customer
-Method: post
-URL: '/api/customer/update/{id}
-params: name, email, phone
+Method: post <br/>
+URL: '/api/customer/update/{id} <br/>
+params: name, email, phone <br/>
 
 
 # Delete customer
-Method: delete
-URL: '/api/customer/delete/{id}'
+Method: delete <br/>
+URL: '/api/customer/delete/{id}' <br/>

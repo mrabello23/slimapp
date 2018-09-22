@@ -8,7 +8,7 @@ class db
 	private $dbhost = 'localhost';
 	private $dbname = 'slimapp';
 	private $dbuser = 'root';
-	private $dbpass = '';
+	private $dbpass = '123456';
 
 	public function connect()
 	{
