@@ -1,14 +1,14 @@
-<?php 
+<?php
 
 /**
-* 
+*
 */
 class db
 {
 	private $dbhost = 'localhost';
 	private $dbname = 'slimapp';
 	private $dbuser = 'root';
-	private $dbpass = '123456';
+	private $dbpass = '';
 
 	public function connect()
 	{
